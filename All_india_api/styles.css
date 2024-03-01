@@ -1,0 +1,45 @@
+body{
+    background-color: red;
+}
+img{
+    width:75px;
+    height: 100px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:40px;
+    gap :30px;
+    
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:5px;
+}
+.second-container{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+    color: red;
+    size: 65px;
+
+}
+input{
+    width: 150px;
+    height: 30px;
+
+}
+button{
+    width: 110px;
+    height: 36px;
+    background-color: aqua;
+}
